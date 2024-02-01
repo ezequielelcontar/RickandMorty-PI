@@ -54,7 +54,7 @@ function App() {
 
    //* Login
    const [access, setAccess] = useState(false);
-   const EMAIL = 'ejemplo@gmail.com';
+   const EMAIL = 'ejemplo@ejemplo.com';
    const PASSWORD = '123456';
 
    async function login(userData) {
