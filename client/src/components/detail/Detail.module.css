@@ -1,0 +1,16 @@
+/* Detail.module.css */
+.detailContainer {
+  background-color: darkslategray;
+  padding: 20px;
+  border-radius: 20px;
+  color: white; /* Añade un color de texto claro para contraste */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 10px; /* Añade un espacio entre los elementos */
+}
+
+.characterImage {
+  max-width: 200px; /* Limita el tamaño de la imagen */
+  border-radius: 10px; /* Suaviza las esquinas de la imagen */
+}

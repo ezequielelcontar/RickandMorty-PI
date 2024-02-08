@@ -1,0 +1,37 @@
+/* Nav.module.css */
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navLinks button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logoutButton {
+  background-color: #e74c3c;
+}
+
+.logoutButton:hover {
+  background-color: #c0392b;
+}

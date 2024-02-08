@@ -1,23 +1,31 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Ajustes generales */
+
+body, #root {
+  background-color: #0b0c10;
+  color: #66FCF1;
+  font-family: 'Roboto', sans-serif; /* Cambia esto por una tipografía más acorde si es posible */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+a {
+  color: #1f2833;
+  text-decoration: none;
+}
+
+/* Estilos para el logo */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: auto;
+  width: 10em; /* Ajusta según necesidad */
+  transition: transform 300ms ease-in-out;
 }
 
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Animación del logo al estilo Rick and Morty si es necesario */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -27,16 +35,37 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* Ajustes para tarjetas de personajes */
 .card {
-  padding: 2em;
+  background-color: #1f2833;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 250ms ease-in-out, box-shadow 250ms ease-in-out;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Texto y otros elementos */
 .read-the-docs {
-  color: #888;
+  color: #C5C6C7;
+}
+
+/* Botones y links */
+button, a.button {
+  background-color: #45A29E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+}
+
+button:hover, a.button:hover {
+  background-color: #66FCF1;
 }

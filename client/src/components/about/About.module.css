@@ -1,0 +1,61 @@
+/* About.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #66FCF1;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #66FCF1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #fff;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #66FCF1;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1f2833;
+}
+
+textarea {
+  height: 100px; /* Altura específica para textarea */
+}
+
+button {
+  background-color: #66FCF1;
+  color: #1f2833;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45A29E;
+}

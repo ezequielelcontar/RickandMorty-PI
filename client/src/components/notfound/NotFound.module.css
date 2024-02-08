@@ -1,0 +1,12 @@
+/* NotFound.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus preferencias */
+  background-color: #f8f9fa; /* Color de fondo para el componente NotFound */
+}
+
+.errorImage {
+  max-width: 80%; /* Limita el tamaño de la imagen */
+}

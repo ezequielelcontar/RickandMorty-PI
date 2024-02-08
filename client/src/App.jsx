@@ -79,7 +79,7 @@ function App() {
    }
 
    useEffect(() => {
-      //* Logueo automático
+      // * Logueo automático
       // !access && navigate('/home');
       !access && navigate('/');
    }, [access]);

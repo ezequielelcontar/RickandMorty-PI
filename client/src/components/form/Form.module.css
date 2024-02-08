@@ -1,0 +1,62 @@
+/* Form.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #1f2833; /* Fondo oscuro */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+.form label {
+  color: #66FCF1; /* Texto en color neón */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b0c10; /* Fondo oscuro */
+  color: #66FCF1; /* Texto en color neón */
+}
+
+.form input::placeholder {
+  color: #66FCF1; /* Color del placeholder */
+}
+
+.error {
+  color: coral; /* Color de error */
+  margin-top: -10px; /* Ajuste de margen superior */
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #66FCF1; /* Fondo del botón en color neón */
+  color: #1f2833; /* Texto oscuro para contraste */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45A29E; /* Cambio de color al pasar el mouse */
+}

@@ -1,0 +1,22 @@
+/* Favorites.module.css */
+.container {
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.favoritesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.noFavorites {
+  text-align: center;
+  width: 100%;
+}
